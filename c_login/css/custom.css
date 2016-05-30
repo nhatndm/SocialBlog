@@ -1,0 +1,63 @@
+/******************** Google Font Api ********************/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+/******************** End Google Font Api ********************/
+/******************** BODY ********************/
+body{
+     font-family: 'Roboto Condensed';   
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+     user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+    background-color: #E0E0E0;
+    padding-top:10%;
+}
+
+label{
+    color: #40B8F3;
+    font-size: 17px;    
+}
+
+@media (min-width:768px){
+    .container{width:750px}
+}
+@media (min-width:992px){
+    .container{width:500px}
+}
+@media (min-width:1200px){
+    .container{width:500px}
+}
+/******************** END BODY ********************/
+
+/******************** MAIN CSS ********************/
+.title{
+    font-size: 50px;
+    color: #40B8F3;   
+}
+.form{
+    border-radius: 5px;
+    background-color: white;
+    padding:20px;   
+}
+.bott{
+    width: 100%;
+    background-color: #40B8F3;
+    border: 0;
+}
+
+.bott:hover{
+   background-color: #40B8F3; 
+}
+#error{
+    color: orangered;
+    font-weight: bold;
+    font-size: 15px;       
+}
+
+.checkbox label input{
+    font-weight: bold;
+}
+/******************** MAIN CSS ********************/
+

@@ -1,0 +1,117 @@
+/******************** Google Font Api ********************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+
+/******************** End Google Font Api ********************/
+
+/******************** Tying jquery ********************/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+/******************** End Tying jquery ********************/
+
+/******************** Customize body css ********************/
+
+body{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */   
+}
+@media (min-width:768px){
+    .container{width:750px}
+}
+@media (min-width:992px){
+    .container{width:900px}
+}
+@media (min-width:1200px){
+    .container{width:900px}
+}
+/******************** End Customize body css ********************/
+
+/******************** Customize header css ********************/
+
+.header{
+    font-family: 'Roboto Condensed';
+    padding-top : 50px;
+    padding-bottom : 20px;
+    font-size: 45px;
+    letter-spacing: 10px;	
+    color: #0099cc;
+}
+
+hr{ 
+  border: 0; 
+  width: 65%;
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+/******************** End Customize header css ********************/
+
+/******************** Customize Blog css ********************/
+
+#blog .calendar{
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    font-weight: Bold;
+}
+
+#blog .main{
+    text-align:justify;
+}
+
+#blog .commend{
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+/******************** End Customize Blog css ********************/
+
+/******************** Customize Footer css ********************/
+
+#footer{
+    background-color: gainsboro;    
+}
+
+#footer .author{  
+    padding-top:5px;
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+}
+
+/******************** End Customize Footer css ********************/
+/********************  Comment Customize css ********************/
+#comment{
+    margin-bottom: 20px;
+}
+/********************  End Comment Customize css ********************/
